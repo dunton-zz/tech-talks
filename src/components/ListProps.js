@@ -3,7 +3,7 @@ import { uuid } from "uuidv4";
 import { classData } from "../data/classData";
 import ListItem from "./ListItem";
 
-class List extends Component {
+class ListProps extends Component {
   constructor() {
     super();
     this.state = {
@@ -43,4 +43,4 @@ class List extends Component {
   }
 }
 
-export default List;
+export default ListProps;

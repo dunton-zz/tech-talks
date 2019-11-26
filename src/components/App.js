@@ -1,12 +1,10 @@
 import React from "react";
-import Form from "./Form";
-import ListProps from "./ListProps";
-import PlusMinus from "./PlusMinus";
+import TodoList from "./TodoList";
 
 function App() {
   return (
     <div>
-      <PlusMinus />
+      <TodoList />
     </div>
   );
 }

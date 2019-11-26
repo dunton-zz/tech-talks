@@ -26,8 +26,7 @@ class TodoList extends Component {
     });
   };
   removeItem = itemKey => {
-    const { items } = this.state;
-    const filteredItems = items.filter(item => {
+    const filteredItems = this.state.items.filter(item => {
       return item.itemKey !== itemKey;
     });
     this.setState({

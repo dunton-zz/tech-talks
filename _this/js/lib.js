@@ -1,9 +1,7 @@
 var furthermore = furthermore || {};
 
 furthermore.lib = {
-  init: () => {
-    console.log("lib init");
+  someFunc: () => {
+    console.log("lib function");
   }
 };
-
-furthermore.lib.init();

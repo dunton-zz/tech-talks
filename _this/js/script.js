@@ -48,6 +48,9 @@ furthermore.tech = {
   },
   loopDataArrow: () => {
     console.log(this.data);
+  },
+  callLib: () => {
+    furthermore.lib.someFunc();
   }
 };
 
@@ -64,6 +67,7 @@ furthermore.tech = {
 // furthermore.tech.donut.insideDonut.name("Lea");
 // furthermore.tech.loopData();
 // furthermore.tech.loopDataArrow();
+// furthermore.tech.callLib();
 
 // const Dog = function(name, breed, age) {
 //   (this.name = name), (this.breed = breed), (this.age = age);

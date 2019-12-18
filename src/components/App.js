@@ -1,11 +1,10 @@
 import React from "react";
-import TodoList from "./TodoList";
-import ListProps from "./ListProps";
+import FunctionalComponent from "./FunctionalComponent";
 
 function App() {
   return (
     <div>
-      <ListProps />
+      <FunctionalComponent />
     </div>
   );
 }
